@@ -15,15 +15,15 @@ const ReplyBubbles = ({ comment }) => {
             </div>
             <div className="interactBtns">
                 <button  className='deleteButton'>
-                    <img src="/icon-delete.svg" alt="delete" />
+                    <img src="./icon-delete.svg" alt="delete" />
                     Delete
                 </button>
                 <button  className='editButton'>
-                    <img src="/icon-edit.svg" alt="edit" />
+                    <img src="./icon-edit.svg" alt="edit" />
                     Edit
                 </button>
                 <button  className='replyButton'>
-                    <img src="/icon-reply.svg" alt="reply" />
+                    <img src="./icon-reply.svg" alt="reply" />
                     Reply
                 </button>
             </div>

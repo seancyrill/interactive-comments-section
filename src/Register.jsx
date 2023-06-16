@@ -69,10 +69,10 @@ const Register = ({ users, createNewUser, setIsLoggedIn, setIsRegistering }) => 
         {registerError && <p id='registerError' className='registerError hideError'> Your chosen username has already been taken</p>}
         <p className='loginLabel marginTop'>Pick your display photo</p>
         <div className="loginPhoto">
-            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="interactive-comments-section//image-juliusomo.png" alt="dphoto1" id='dphoto1' ref={dp1} className='selectedDp'/>
-            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="./interactive-comments-section/image-amyrobson.png" alt="dphoto2" id='dphoto2' ref={dp2} />
+            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="./image-juliusomo.png" alt="dphoto1" id='dphoto1' ref={dp1} className='selectedDp'/>
+            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="./image-amyrobson.png" alt="dphoto2" id='dphoto2' ref={dp2} />
             <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="./image-maxblagun.png" alt="dphoto3" id='dphoto3' ref={dp3} />
-            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="/image-ramsesmiron.png" alt="dphoto4" id='dphoto4' ref={dp4} />
+            <img onClick={(e) => handleDisplayPhoto(e.target.id)} src="./image-ramsesmiron.png" alt="dphoto4" id='dphoto4' ref={dp4} />
         </div>
         <button className='registerBtn submit marginTop' type='submit'>Register</button>
       </form>

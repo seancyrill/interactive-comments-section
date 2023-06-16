@@ -34,18 +34,18 @@ const CommentBubble = ({ comment, id, handleDelete, handleSubmit, parentId, hand
         <div className="interactBtns">
             {(comment.user.userId === currentUser.userId) &&
                 <button  className='deleteButton' onClick={() => modal.current.showModal()}>
-                <img src="/images/icon-delete.svg" alt="delete" />
+                <img src="./icon-delete.svg" alt="delete" />
                 Delete
             </button>}
             {(comment.user.userId === currentUser.userId) &&
                 <button  className='editButton' onClick={() => setIsEditing(val => !val)}>
-                <img src="/images/icon-edit.svg" alt="edit" />
+                <img src="./icon-edit.svg" alt="edit" />
                 {isEditing ? <p className='cancelEdit'>Cancel Edit</p> : 'Edit'}
             </button>}
             {isLoggedIn && 
             !(comment.user.userId === currentUser.userId) &&
             <button onClick={() => setIsReplying(val => !val)} className='replyButton'>
-                <img src="/images/icon-reply.svg" alt="reply" />
+                <img src="./icon-reply.svg" alt="reply" />
                 {isReplying ? <p className='cancelReply'>Cancel Reply</p> : 'Reply'}
             </button>}
         </div>

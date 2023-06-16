@@ -7,7 +7,7 @@ function App() {
   
   const defaultUser = {
     image: {
-      png: "/favicon-32x32.png",
+      png: "./favicon-32x32.png",
     },
     username: "",
     userId: 'unlogged',
