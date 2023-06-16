@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react'
 
 const Register = ({ users, createNewUser, setIsLoggedIn, setIsRegistering }) => {
-  const [selectedDp, setSelectedDp] = useState('./images/avatars/image-juliusomo.png');
+  const [selectedDp, setSelectedDp] = useState('./image-juliusomo.png');
   const [registerUser, setRegisterUser] = useState('');
   const [registerError, setRegisterError] = useState(false)
   const dp1 = useRef();
